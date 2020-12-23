@@ -10,7 +10,7 @@ export const fetchWeather = () => async (dispatch) => {
   const fetches = await Promise.all(
     Object.values(ids).map((e) =>
       fetch(
-        `https://api.openweathermap.org/data/2.5/forecast?id=${e}&appid=db6277716bmshe69944dfda3799ap1d8adajsna15258094495` // here you put your token key
+        `https://api.openweathermap.org/data/2.5/forecast?id=${e}&appid=` // here you put your token key
       ).then((e) => e.json())
     )
   );
