@@ -36,12 +36,8 @@
     "build": "craco build",
     "test": "craco test",
     "build:tailwind": "postcss src/tailwind.css -o src/tailwind.output.css",
-
     "eject": "react-scripts eject"
-    // "start": "craco start",
-    // "build": "craco build",
-    // "test": "craco test",
-    // "build:tailwind": "postcss src/tailwind.css -o src/tailwind.output.css",
+    
 
 
 
